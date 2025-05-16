@@ -22,7 +22,8 @@ const Calculator = () => {
             setResult(result.toString());
         } catch (error) {
             console.log(error)
-            setInput("Error");
+            //setInput("Error");
+            setResult("Error");
         }
     };
     return(
