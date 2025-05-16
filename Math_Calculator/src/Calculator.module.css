@@ -1,5 +1,53 @@
 .countainer{
     height: 500px;
-    width: 250px;
+    width: 320px;
     border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.heading{
+
+}
+.input{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 20px;
+}
+.output{
+    height: 30px;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.gritcont{
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+  row-gap: 50px;
+}
+.griditem{
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  transition: background 0.2s ease-in-out;
+
+}
+.griditem:hover {
+  background: #d1d1d1;
+  cursor: pointer;
 }
